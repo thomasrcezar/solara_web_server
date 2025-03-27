@@ -4,10 +4,12 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-rocket = "0.5.0"
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
+# eframe = "0.27.2" # Removed duplicate/older version
+# egui = "0.27.2" # Removed older version
+rfd = "0.14.1"
 tokio = { version = "1", features = ["full"] }
+rocket = "0.5.1"
+chrono ="0.4"
 
 # Update eframe to match egui version
 eframe = "0.26.0"
