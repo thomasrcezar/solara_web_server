@@ -5,16 +5,16 @@
 ### Basic UI Structure
 - [x] Set up egui/eframe integration
 - [x] Create main application window
-- [ ] Design server dashboard layout
-- [ ] Implement tab-based navigation system
+- [x] Design server dashboard layout (Basic structure with tabs)
+- [ ] Implement tab-based navigation system (Done as part of layout)
 - [ ] Create responsive layout for different screen sizes
 
 ### Server Control Panel
-- [ ] Add server start/stop buttons
-- [ ] Implement server status indicator
-- [ ] Create port/host configuration inputs
-- [ ] Add protocol selection (HTTP/HTTPS)
-- [ ] Implement save/load configuration functionality
+- [x] Add server start/stop buttons (Placeholders added)
+- [x] Implement server status indicator (Basic label added)
+- [x] Create port/host configuration inputs (Added)
+- [x] Add protocol selection (HTTP/HTTPS) (Added)
+- [ ] Implement save/load configuration functionality (Placeholder buttons added)
 
 ### Monitoring Components
 - [ ] Create real-time server statistics panel
